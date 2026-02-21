@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>KOCUTIE NAILS : 𝓨𝓸𝓾𝓻 𝓷𝓪𝓲𝓵𝓼 𝓭𝓮𝓼𝓮𝓻𝓿𝓮 𝓵𝓸𝓿𝓮 𝓽𝓸𝓸</title>
-        <link rel="icon" type="image/x-icon" href="{!! url('assets/images/favicon.ico') !!}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('assets/images/favicon.ico') }}">
         <meta name="description" content="KOCUTIE NAILS is a small nail salon in the Philippines that gives wonderful experience to their clients and their nails.">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
@@ -13,8 +13,8 @@
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         <link rel="stylesheet" href="https://www.glosslab.com/hubfs/dec2022/jquery.mCustomScrollbar.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="{!! url('assets/js/jquery-1.11.2.js') !!}"></script>
-        <script src="{!! url('assets/js/jquery-migrate-1.2.1.js') !!}"></script>
+        <script src="{{ asset('assets/js/jquery-1.11.2.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery-migrate-1.2.1.js') }}"></script>
         <script>
             hsjQuery = window['jQuery'];
         </script>

@@ -41,7 +41,7 @@
                     <div id="hs_cos_wrapper_header_logo" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-logo" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
                         <span id="hs_cos_wrapper_header_logo_hs_logo_widget" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_logo" style="" data-hs-cos-general-type="widget" data-hs-cos-type="logo">
                             <a href="javascript:void(0)" id="hs-link-header_logo_hs_logo_widget" style="border-width:0px;border:0px;">
-                                <img src="{!! url('assets/images/logo.png') !!}" class="hs-image-widget " height="34" style="height: auto;width:154px;border-width:0px;border:0px;" width="154" alt="logo-lockup" title="logo-lockup">
+                                <img src="{{ asset('assets/images/logo.png') }}" class="hs-image-widget " height="34" style="height: auto;width:154px;border-width:0px;border:0px;" width="154" alt="logo-lockup" title="logo-lockup">
                             </a>
                         </span>
                     </div>
@@ -141,7 +141,7 @@
                                                             <div class="banner-slider-wrap">
                                                                 <div class="banner-slider-inner">
                                                                     <div class="banner-slider-img">
-                                                                        <img src="{!! url('assets/images/nails/header-1.png') !!}" alt="Black Gel Mani " loading="lazy" width="2000" style="max-width: 100%; height: auto;" srcset="" sizes="(max-width: 2000px) 100vw, 2000px">
+                                                                        <img src="{{ asset('assets/images/nails/header-1.png') }}" alt="Black Gel Mani " loading="lazy" width="2000" style="max-width: 100%; height: auto;" srcset="" sizes="(max-width: 2000px) 100vw, 2000px">
                                                                     </div>
                                                                     <div class="banner-slider-text">
                                                                         <h2>A BETTER NAIL EXTENSION IS HERE!</h2>
@@ -151,7 +151,7 @@
                                                                 </div>
                                                                 <div class="banner-slider-inner">
                                                                     <div class="banner-slider-img">
-                                                                        <img src="{!! url('assets/images/nails/header-2.png') !!}" alt="BETTER AS A MEMBER." loading="lazy" style="max-width: 100%; height: auto;">
+                                                                        <img src="{{ asset('assets/images/nails/header-2.png') }}" alt="BETTER AS A MEMBER." loading="lazy" style="max-width: 100%; height: auto;">
                                                                     </div>
                                                                     <div class="banner-slider-text">
                                                                         <h2>GIVING YOUR NAILS A LIFE!</h2>
@@ -161,7 +161,7 @@
                                                                 </div>
                                                                 <div class="banner-slider-inner">
                                                                     <div class="banner-slider-img">
-                                                                        <img src="{!! url('assets/images/nails/header-3.png') !!}" alt="BETTER AS A MEMBER." loading="lazy" style="max-width: 100%; height: auto;">
+                                                                        <img src="{{ asset('assets/images/nails/header-3.png') }}" alt="BETTER AS A MEMBER." loading="lazy" style="max-width: 100%; height: auto;">
                                                                     </div>
                                                                     <div class="banner-slider-text">
                                                                         <h2>STYLISH NAILS FOR LESS!</h2>
@@ -562,7 +562,7 @@
                                                                 <div class="join-us-glosslab-heading-insta" style="margin-top: 5px;">
                                                                     <h6>
                                                                         <a href="https://www.tiktok.com/@kocutienails" target="_blank" style="color:#212322;">
-                                                                            <img src="{!! url('assets/images/tiktok-logo.png') !!}" alt="instagram-icon" loading="lazy" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/tiktok-logo.png') }}" alt="instagram-icon" loading="lazy" style="max-width: 100%; height: auto;">
                                                                             <span>@KOCUTIENAILS</span>
                                                                         </a>
                                                                     </h6>
@@ -574,25 +574,25 @@
                                                             <div id="div1" class="join-us-glosslab-image-gallery-wrapper">
                                                                 <div class="join-us-glosslab-image-gallery-one-col">
                                                                     <div class="join-us-glosslab-image-gallery-one-col-block">
-                                                                        <img src="{!! url('assets/images/nails/album/1.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                        <img src="{{ asset('assets/images/nails/album/1.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                     </div>
                                                                 </div>
                                                                 <div class="join-us-glosslab-image-gallery-five-col">
                                                                     <div class="join-us-glosslab-image-gallery-five-col-wrapper">
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-1">
-                                                                            <img src="{!! url('assets/images/nails/album/2.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/2.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-2">
-                                                                            <img src="{!! url('assets/images/nails/album/3.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/3.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-3">
-                                                                            <img src="{!! url('assets/images/nails/album/4.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/4.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-4">
-                                                                            <img src="{!! url('assets/images/nails/album/5.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/5.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-5">
-                                                                            <img src="{!! url('assets/images/nails/album/6.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/6.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -600,25 +600,25 @@
                                                             <div id="div2" class="join-us-glosslab-image-gallery-wrapper">
                                                                 <div class="join-us-glosslab-image-gallery-one-col">
                                                                     <div class="join-us-glosslab-image-gallery-one-col-block">
-                                                                        <img src="{!! url('assets/images/nails/album/7.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                        <img src="{{ asset('assets/images/nails/album/7.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                     </div>
                                                                 </div>
                                                                 <div class="join-us-glosslab-image-gallery-five-col">
                                                                     <div class="join-us-glosslab-image-gallery-five-col-wrapper">
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-1">
-                                                                            <img src="{!! url('assets/images/nails/album/8.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/8.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-2">
-                                                                            <img src="{!! url('assets/images/nails/album/9.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/9.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-3">
-                                                                            <img src="{!! url('assets/images/nails/album/10.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/10.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-4">
-                                                                            <img src="{!! url('assets/images/nails/album/11.jpeg') !!}" alt="Instagram Photo" loading="" width="279" height="279" >
+                                                                            <img src="{{ asset('assets/images/nails/album/11.jpeg') }}" alt="Instagram Photo" loading="" width="279" height="279" >
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-5">
-                                                                            <img src="{!! url('assets/images/nails/album/12.jpeg') !!}" alt="Instagram Photo" loading="" width="218" height="218" >
+                                                                            <img src="{{ asset('assets/images/nails/album/12.jpeg') }}" alt="Instagram Photo" loading="" width="218" height="218" >
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -626,25 +626,25 @@
                                                             <div id="div3" class="join-us-glosslab-image-gallery-wrapper">
                                                                 <div class="join-us-glosslab-image-gallery-one-col">
                                                                     <div class="join-us-glosslab-image-gallery-one-col-block">
-                                                                        <img src="{!! url('assets/images/nails/album/13.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                        <img src="{{ asset('assets/images/nails/album/13.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                     </div>
                                                                 </div>
                                                                 <div class="join-us-glosslab-image-gallery-five-col">
                                                                     <div class="join-us-glosslab-image-gallery-five-col-wrapper">
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-1">
-                                                                            <img src="{!! url('assets/images/nails/album/14.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/14.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-2">
-                                                                            <img src="{!! url('assets/images/nails/album/15.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/15.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-3">
-                                                                            <img src="{!! url('assets/images/nails/album/16.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/16.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-4">
-                                                                            <img src="{!! url('assets/images/nails/album/17.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/17.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-5">
-                                                                            <img src="{!! url('assets/images/nails/album/18.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/18.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -652,25 +652,25 @@
                                                             <div id="div4" class="join-us-glosslab-image-gallery-wrapper">
                                                                 <div class="join-us-glosslab-image-gallery-one-col">
                                                                     <div class="join-us-glosslab-image-gallery-one-col-block">
-                                                                        <img src="{!! url('assets/images/nails/album/19.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                        <img src="{{ asset('assets/images/nails/album/19.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                     </div>
                                                                 </div>
                                                                 <div class="join-us-glosslab-image-gallery-five-col">
                                                                     <div class="join-us-glosslab-image-gallery-five-col-wrapper">
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-1">
-                                                                            <img src="{!! url('assets/images/nails/album/20.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/20.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-2">
-                                                                            <img src="{!! url('assets/images/nails/album/21.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/21.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-3">
-                                                                            <img src="{!! url('assets/images/nails/album/22.jpeg') !!}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
+                                                                            <img src="{{ asset('assets/images/nails/album/22.jpeg') }}" alt="Instagram Photo" loading="" style="max-width: 100%; height: auto;">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-4">
-                                                                            <img src="{!! url('assets/images/nails/album/23.jpeg') !!}" alt="Instagram Photo" loading="" width="279" height="279">
+                                                                            <img src="{{ asset('assets/images/nails/album/23.jpeg') }}" alt="Instagram Photo" loading="" width="279" height="279">
                                                                         </div>
                                                                         <div class="join-us-glosslab-image-gallery-five-col-block join-us-glosslab-image-gallery-five-col-block-5">
-                                                                            <img src="{!! url('assets/images/nails/album/24.jpeg') !!}" alt="Instagram Photo" loading="" width="218" height="218" >
+                                                                            <img src="{{ asset('assets/images/nails/album/24.jpeg') }}" alt="Instagram Photo" loading="" width="218" height="218" >
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -800,7 +800,7 @@
 </div>
 <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-{{-- <script defer src="{!! url('assets/js/index.js') !!}"></script> --}}
+{{-- <script defer src="{{ asset('assets/js/index.js') }}"></script> --}}
 <!-- HubSpot performance collection script -->
 <script defer src="https://static.hsappstatic.net/content-cwv-embed/static-1.971/embed.js"></script>
 <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
@@ -813,8 +813,8 @@
     var hsVars = hsVars || {};
     hsVars['language'] = 'en';
 </script>
-<script src="{!! url('assets/js/project.js') !!}"></script>
-<script src="{!! url('assets/js/project-keyboard.js') !!}"></script>
+<script src="{{ asset('assets/js/project.js') }}"></script>
+<script src="{{ asset('assets/js/project-keyboard.js') }}"></script>
 <script src="https://www.glosslab.com/hs-fs/hub/20924679/hub_generated/module_assets/111681140290/1699506246475/module_111681140290_Banner_Slider_Section_V2.min.js"></script>
 <script src="https://www.glosslab.com/hs-fs/hub/20924679/hub_generated/module_assets/67714115139/1648213257655/module_67714115139_Two_Column_Image_And_Content_Section.min.js"></script>
 <script src="https://www.glosslab.com/hs-fs/hub/20924679/hub_generated/module_assets/96290259751/1671882203506/module_96290259751_Two_Column_Image_And_Content_Section_Dec_2022.min.js"></script>
