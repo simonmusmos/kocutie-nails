@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.6.2",
+      "maxDuration": 60
+    }
+  },
+  "routes": [
+    {
+      "src": "/build/(.*)",
+      "dest": "/public/build/$1"
+    },
+    {
+      "src": "/(.*\\.(css|js|map|png|jpg|jpeg|gif|svg|webp|ico|txt|xml|woff|woff2|ttf|eot))",
+      "dest": "/public/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
+}
